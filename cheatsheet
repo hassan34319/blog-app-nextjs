@@ -1,0 +1,22 @@
+-tailwind docs : ctrl + alt + t
+-We need tailwind typography because html markdown that is fetched from backend, fonts can not be applied to it through normal tailwind.
+-If you want to create a folder in app directory and not have a route on it, put () around it.
+-[] means dynamic route
+-loading,page,layout etc are keywords
+-rfce makes function of component name. tsrfce does the same in typescript style
+-You can now have different metadata and icons for different pages
+-Relative on parent component, absolute on child component.
+-npx init primsa
+-Configure database url and set up database
+-Create Prisma schema
+- npx primsa db push
+- npx prisma studio shows you posts in localhost
+- Next JS Images : Smaller images automatically on smaller screens for faster loading and less memory and processing.
+- First way to set dimensions of image is height and fidth.
+- The other way is to set fill wnere then image goes relatie to container. SO  make sure container has relative property and is responsive. (w-full and h-full)
+- Then sou can set style and choose the appropriate objectFit
+-If we use post.image directly it is impossible to add placeholder property. So we have to format images and make them static imports
+- If we are fetching from a url we have 3 options. cache:force-cache makes it static, cahce: no-store makes the fetch server side, and next : {revalidate : 60} makes it ISR.
+- If you are fetching from a source where fetch func is not needed, e.g prisma client then we can put revalidation by just writing export const revalidate = 60 for revalidation after every 60s
+- Any kind of interaction means use client components. (state changes etc)
+-We have to align our editor to the state.
