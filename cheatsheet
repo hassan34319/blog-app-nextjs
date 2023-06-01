@@ -20,3 +20,5 @@
 - If you are fetching from a source where fetch func is not needed, e.g prisma client then we can put revalidation by just writing export const revalidate = 60 for revalidation after every 60s
 - Any kind of interaction means use client components. (state changes etc)
 -We have to align our editor to the state.
+- For Production use NEXT_PUBLIC_URL = https://$NEXT_PUBLIC_VERCEL_URL
+This will automatically become the url you deploy the application on.
