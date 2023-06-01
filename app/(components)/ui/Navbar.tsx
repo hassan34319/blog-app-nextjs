@@ -14,7 +14,7 @@ function Navbar() {
           <SocialLinks isDark={false} />
         </div>
         {/* This div below takes care of all the links in the navbar */}
-        <div className="flex items-between justify-center gap-10 md:gap-20 ">
+        <div className="flex items-between justify-center gap-5 md:gap-20 ">
           <NavLinks />
         </div>
         <NavButton />
