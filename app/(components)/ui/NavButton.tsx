@@ -13,7 +13,7 @@ function NavButton() {
   return (
     <button
       onClick={Scrollsubscribe}
-      className="bg-wh-100 py-2 px-8 text-bl-100 text-sm font-bold drop-shadow-lg rounded-md hidden md:block"
+      className="bg-wh-100 py-2 px-8 text-bl-100 text-sm font-bold drop-shadow-lg rounded-md hidden sm:block"
     >
       Subscribe
     </button>

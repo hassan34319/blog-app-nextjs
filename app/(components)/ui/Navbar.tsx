@@ -14,7 +14,7 @@ function Navbar() {
           <SocialLinks isDark={false} />
         </div>
         {/* This div below takes care of all the links in the navbar */}
-        <div className="flex items-between justify-center gap-5 md:gap-20 ">
+        <div className="flex items-between justify-between space-x-10 md:space-x-20">
           <NavLinks />
         </div>
         <NavButton />
@@ -28,7 +28,7 @@ function Navbar() {
           <p className="text-sm mt-3">The First Ever AI Powered Blog.</p>
         </div>
         <div className="basis-full relative w-auto h-32 bg-wh-500">
-          Image Here
+
           <Image
             fill
             alt="advert-1"
